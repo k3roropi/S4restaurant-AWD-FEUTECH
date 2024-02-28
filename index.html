@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Menu</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-green">
+        <a class="navbar-brand" href="#" onclick="backToMainMenu()">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/2000px-Flag_of_Mexico.svg.png" alt="Food Menu Image" style="width: 100px; height: 60px;">
+        </a>
+      </nav>
+
+<div class="container mt-4">
+  <div id="landingPage" class="text-center">
+    <h1 class="mb-4 text-light">Mehico's menu</h1>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://www.desktopbackground.org/download/1920x1080/2012/09/10/450630_mexican-food-dinner-lunch-mexico-spanish-wallpapers_2048x1605_h.jpg" class="card-img-top" alt="Food 1">
+          <div class="card-body d-flex flex-column text-light">
+            <h5 class="card-title">Nachos</h5>
+            <p class="card-text">Nachos are a Tex-Mex culinary dish consisting of tortilla chips or totopos covered with cheese or cheese sauce. Good as a side dish for snacking after meal </p>
+            <a href="nachos.html" class="btn btn-primary" onclick="showFoodDetails(1)">View Details</a>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://images5.alphacoders.com/134/1345544.png" class="card-img-top" alt="Food 2">
+          <div class="card-body text-light">
+            <h5 class="card-title">Burritos</h5>
+            <p class="card-text">Burritos, a Tex-Mex classic, encase seasoned meats, beans, rice, and veggies in a soft tortilla, offering a portable and hearty fusion of textures and flavors.</p>
+            <a href="burritos.html" class="btn btn-primary" onclick="showFoodDetails(2)">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmD5UO7S6FxSee1fLtt7PKfEShUwq4g3tmbfzwttsDnmchIuAB01eRpAQ1XMW15GJqTgk&usqp=CAU" class="card-img-top" alt="Food 2">
+          <div class="card-body d-flex flex-column text-light">
+            <h5 class="card-title">Salsa</h5>
+            <p class="card-text">Salsa, the lively condiment, blends tomatoes, onions, cilantro, and spices into a zesty medley, adding a burst of freshness and vibrancy to Tex-Mex dishes. Good dipping sauce for sides</p>
+            <a href="salsa.html" class="btn btn-primary" onclick="showFoodDetails(2)">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxsY7OD_uvyGhbe_TNcUP2rq_FKE7NfbSUpg&usqp=CAU" class="card-img-top" alt="Food 2">
+          <div class="card-body d-flex flex-column text-light">
+            <h5 class="card-title">Fajitas</h5>
+            <p class="card-text">Fajitas, a Tex-Mex delight, showcase grilled and marinated meat strips with sautéed peppers and onions, delivering a sizzling symphony of savory flavors.</p>
+            <a href="fajitas.html" class="btn btn-primary" onclick="showFoodDetails(2)">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="JS/script.js"></script>
+</body>
+</html>
